@@ -1,0 +1,26 @@
+---
+title: Covid plots using trelliscopeJS
+author: Leon
+date: '2021'
+output: html_document
+---
+
+```{r}
+library(ggplot2)
+library(trelliscopejs)
+library(DT)
+
+cc_list <- readRDS("comp-comp_covid_trellis.rds")
+```
+
+# Data
+
+```{r}
+datatable(cc_list$Data)
+```
+
+# New COVID-19 details per day for each Country
+
+```{r}
+facet_tsplotly(cc_list$`New COVID-19 details per day for each Country`)
+```

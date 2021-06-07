@@ -1,0 +1,12 @@
+__loadDisplayList__ffff52a4([
+  {
+    "group": "common",
+    "name": "by_Country",
+    "desc": "COVID-19 Details by Country",
+    "n": 237,
+    "height": 500,
+    "width": 500,
+    "updated": "2021-06-01 09:35:38",
+    "keySig": "9f6729013836d28074813087713c9ef8"
+  }
+])
